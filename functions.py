@@ -19,6 +19,8 @@ def getStockDataVec(key):
 def sigmoid(x):
 	return 1 / (1 + math.exp(-x))
 
+# nonono
+
 # returns an an n-day state representation ending at time t
 def getState(data, t, n):
 	d = t - n + 1
