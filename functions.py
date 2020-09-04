@@ -19,6 +19,14 @@ def getStockDataVec(key):
 def sigmoid(x):
 	return 1 / (1 + math.exp(-x))
 
+# returns the tanh
+def tanh(x):
+	return (math.exp(x) - math.exp(-x)) / (math.exp(x) + math.exp(-x))
+
+# returns the relu
+def relu(x):
+	return max(x, 0)
+
 # returns an an n-day state representation ending at time t
 def getState(data, t, n):
 	d = t - n + 1
