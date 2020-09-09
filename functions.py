@@ -31,6 +31,8 @@ def relu(x):
 	return max(x, 0)
 >>>>>>> 44d9a7830289371481287291085492295eb18462
 
+# adddddd
+
 # returns an an n-day state representation ending at time t
 def getState(data, t, n):
 	d = t - n + 1
